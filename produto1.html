@@ -1,31 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tênis Confort - Loja de Calçados</title>
+  <title>Tênis Esportivo</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <nav class="navbar">
-      <div class="logo">👟 Loja de Calçados</div>
-      <ul class="nav-links">
-        <li><a href="index.html">Início</a></li>
-      </ul>
+    <h1>Tênis Esportivo</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="carrinho.html">Carrinho</a>
     </nav>
   </header>
 
-  <main style="padding:20px; text-align:center;">
-    <img src="https://via.placeholder.com/500x400?text=Tenis+Confort" alt="Tênis Confort" style="max-width:100%; border-radius:10px;">
-    <h1>Tênis Confort</h1>
-    <p>Preço: <strong>R$ 199,90</strong></p>
-    <p>Descrição: Tênis leve e confortável, ideal para caminhadas e uso diário.</p>
-    <a href="#" class="btn">Adicionar ao Carrinho</a>
+  <main>
+    <img src="https://via.placeholder.com/400x300" alt="Tênis Esportivo">
+    <h2>Tênis Esportivo</h2>
+    <p><strong>Preço:</strong> R$ 199,90</p>
+    <p><strong>Material:</strong> Tecido respirável e sola de borracha</p>
+    <p><strong>Medidas:</strong> Numeração 37 a 44</p>
+    <p><strong>Pagamento:</strong> Pix, Cartão de Crédito e Boleto</p>
+    <button onclick="adicionarAoCarrinho('Tênis Esportivo', 199.90)">Adicionar ao Carrinho</button>
+    <button class="btn-comprar">Comprar Agora</button>
   </main>
 
   <footer>
     <p>&copy; 2025 Loja de Calçados</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
