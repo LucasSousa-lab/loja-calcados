@@ -110,6 +110,31 @@ footer {
   margin-top: 30px;
 }
 
+/* ===== ESTILOS PARA O CARRINHO ===== */
+#lista-carrinho li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#lista-carrinho li button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#lista-carrinho li button:hover {
+  background: darkred;
+}
+
 /* ===== RESPONSIVO ===== */
 @media (max-width: 768px) {
   .container {
