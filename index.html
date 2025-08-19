@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,76 +7,68 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- ====== MENU ====== -->
   <header>
-    <nav class="navbar">
-      <div class="logo">👟 Loja de Calçados</div>
-      <ul class="nav-links">
-        <li><a href="index.html">Início</a></li>
-        <li><a href="carrinho.html">🛒 Carrinho</a></li>
-        <li><a href="#masculino">Masculino</a></li>
-        <li><a href="#feminino">Feminino</a></li>
-        <li><a href="#infantil">Infantil</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
+    <h1>Loja de Calçados</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="carrinho.html">Carrinho</a>
     </nav>
   </header>
 
-  <!-- ====== BANNER ====== -->
-  <section class="banner">
-    <h1>Bem-vindo à Loja de Calçados</h1>
-    <p>Estilo e conforto para todas as ocasiões</p>
-  </section>
-
-  <!-- ====== PRODUTOS ====== -->
   <main>
-    <h2 id="masculino">👞 Masculino</h2>
-    <div class="container">
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=Tenis+Masculino" alt="Tênis Masculino">
-        <h3>Tênis Confort</h3>
+    <h2>Produtos em Destaque</h2>
+    <div class="produtos">
+      <!-- Produto 1 -->
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x150" alt="Tênis Esportivo">
+        <h3>Tênis Esportivo</h3>
         <p>R$ 199,90</p>
-        <button class="btn" onclick="adicionarCarrinho('Tênis Confort', 199.90)">Adicionar ao Carrinho</button>
+        <button onclick="adicionarAoCarrinho('Tênis Esportivo', 199.90)">Adicionar ao Carrinho</button>
+        <a class="btn-acessar" href="produto1.html">Acessar Produto</a>
       </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=Sapato+Social" alt="Sapato Social">
-        <h3>Sapato Social</h3>
-        <p>R$ 299,90</p>
-       <button class="btn" onclick="adicionarCarrinho('Tênis Confort', 199.90)">Adicionar ao Carrinho</button>
-      </div>
-    </div>
 
-    <h2 id="feminino">👠 Feminino</h2>
-    <div class="container">
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=Salto+Alto" alt="Salto Alto">
-        <h3>Salto Glamour</h3>
+      <!-- Produto 2 -->
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x150" alt="Sapatênis Casual">
+        <h3>Sapatênis Casual</h3>
         <p>R$ 249,90</p>
-        <button class="btn" onclick="adicionarCarrinho('Tênis Confort', 199.90)">Adicionar ao Carrinho</button>
+        <button onclick="adicionarAoCarrinho('Sapatênis Casual', 249.90)">Adicionar ao Carrinho</button>
+        <a class="btn-acessar" href="produto2.html">Acessar Produto</a>
       </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=Tenis+Feminino" alt="Tênis Feminino">
-        <h3>Tênis Casual</h3>
-        <p>R$ 179,90</p>
-        <button class="btn" onclick="adicionarCarrinho('Tênis Confort', 199.90)">Adicionar ao Carrinho</button>
-      </div>
-    </div>
 
-    <h2 id="infantil">🧒 Infantil</h2>
-    <div class="container">
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=Tenis+Infantil" alt="Tênis Infantil">
-        <h3>Tênis Kids</h3>
-        <p>R$ 129,90</p>
-        <button class="btn" onclick="adicionarCarrinho('Tênis Confort', 199.90)">Adicionar ao Carrinho</button>
+      <!-- Produto 3 -->
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x150" alt="Sandália Conforto">
+        <h3>Sandália Conforto</h3>
+        <p>R$ 149,90</p>
+        <button onclick="adicionarAoCarrinho('Sandália Conforto', 149.90)">Adicionar ao Carrinho</button>
+        <a class="btn-acessar" href="produto3.html">Acessar Produto</a>
+      </div>
+
+      <!-- Produto 4 -->
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x150" alt="Bota de Couro">
+        <h3>Bota de Couro</h3>
+        <p>R$ 299,90</p>
+        <button onclick="adicionarAoCarrinho('Bota de Couro', 299.90)">Adicionar ao Carrinho</button>
+        <a class="btn-acessar" href="produto4.html">Acessar Produto</a>
+      </div>
+
+      <!-- Produto 5 -->
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x150" alt="Chinelo Slide">
+        <h3>Chinelo Slide</h3>
+        <p>R$ 89,90</p>
+        <button onclick="adicionarAoCarrinho('Chinelo Slide', 89.90)">Adicionar ao Carrinho</button>
+        <a class="btn-acessar" href="produto5.html">Acessar Produto</a>
       </div>
     </div>
   </main>
 
-  <!-- ====== RODAPÉ ====== -->
-  <footer id="contato">
-    <p>📧 contato@lojadecalcados.com | 📞 (11) 99999-9999</p>
+  <footer>
     <p>&copy; 2025 Loja de Calçados - Todos os direitos reservados</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
