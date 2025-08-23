@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Calçados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Loja de Calçados</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="carrinho.html">Carrinho</a>
+    </nav>
+  </header>
+
+  <main class="produtos-container">
+    <div class="produto">
+      <img src="https://via.placeholder.com/200x150?text=Tenis+Esportivo" alt="Tênis Esportivo">
+      <h2>Tênis Esportivo</h2>
+      <p>R$ 199,90</p>
+      <button onclick="adicionarAoCarrinho('Tênis Esportivo', 199.90)">Adicionar ao Carrinho</button>
+      <a href="produto1.html" class="btn">Acessar Produto</a>
+    </div>
+    <div class="produto">
+      <img src="https://via.placeholder.com/200x150?text=Sapato+Social" alt="Sapato Social">
+      <h2>Sapato Social</h2>
+      <p>R$ 249,90</p>
+      <button onclick="adicionarAoCarrinho('Sapato Social', 249.90)">Adicionar ao Carrinho</button>
+      <a href="produto2.html" class="btn">Acessar Produto</a>
+    </div>
+    <div class="produto">
+      <img src="https://via.placeholder.com/200x150?text=Sandalia+Feminina" alt="Sandália Feminina">
+      <h2>Sandália Feminina</h2>
+      <p>R$ 149,90</p>
+      <button onclick="adicionarAoCarrinho('Sandália Feminina', 149.90)">Adicionar ao Carrinho</button>
+      <a href="produto3.html" class="btn">Acessar Produto</a>
+    </div>
+    <div class="produto">
+      <img src="https://via.placeholder.com/200x150?text=Bota+Masculina" alt="Bota Masculina">
+      <h2>Bota Masculina</h2>
+      <p>R$ 299,90</p>
+      <button onclick="adicionarAoCarrinho('Bota Masculina', 299.90)">Adicionar ao Carrinho</button>
+      <a href="produto4.html" class="btn">Acessar Produto</a>
+    </div>
+    <div class="produto">
+      <img src="https://via.placeholder.com/200x150?text=Chinelo+Confort" alt="Chinelo Confort">
+      <h2>Chinelo Confort</h2>
+      <p>R$ 59,90</p>
+      <button onclick="adicionarAoCarrinho('Chinelo Confort', 59.90)">Adicionar ao Carrinho</button>
+      <a href="produto5.html" class="btn">Acessar Produto</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Loja de Calçados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
