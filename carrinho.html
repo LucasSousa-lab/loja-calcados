@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carrinho</title>
+  <title>Carrinho | Elegance Store</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,13 +14,19 @@
     </nav>
   </header>
 
-  <main>
-    <ul id="lista-carrinho"></ul>
-    <p id="total"></p>
+  <main class="container carrinho-container">
+    <h2>Seus itens</h2>
+    <ul id="lista-carrinho" class="lista-carrinho"></ul>
+    <p id="mensagem-vazia" class="mensagem-vazia">Seu carrinho está vazio.</p>
+    <p id="total" class="total"></p>
+    <div class="acoes-carrinho">
+      <button onclick="limparCarrinho()">Limpar Carrinho</button>
+      <button onclick="finalizarCompra()">Finalizar Compra</button>
+    </div>
   </main>
 
   <footer>
-    <p>&copy; 2025 Loja de Calçados</p>
+    <p>&copy; 2025 Elegance Store</p>
   </footer>
 
   <script src="script.js"></script>
