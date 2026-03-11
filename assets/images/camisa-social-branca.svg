@@ -1,20 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
-  <rect width="800" height="560" fill="#e6eef8"/>
-  <rect x="0" y="420" width="800" height="140" fill="#d2deee"/>
-  <g transform="translate(400 84)">
-    <circle cx="0" cy="42" r="38" fill="#f4ccb0"/>
-    <rect x="-20" y="76" width="40" height="30" rx="8" fill="#f4ccb0"/>
-    <path d="M-130 126 L-56 100 L-32 156 L-68 214 L-146 178 Z" fill="#ffffff"/>
-    <path d="M130 126 L56 100 L32 156 L68 214 L146 178 Z" fill="#ffffff"/>
-    <path d="M-98 106 L98 106 L82 356 L-82 356 Z" fill="#ffffff" stroke="#d1d9e6" stroke-width="3"/>
-    <path d="M-34 106 L0 146 L34 106" fill="#ffffff" stroke="#c7d2e3" stroke-width="4"/>
-    <line x1="0" y1="146" x2="0" y2="356" stroke="#c7d2e3" stroke-width="3"/>
-    <circle cx="0" cy="186" r="4" fill="#90a4bf"/>
-    <circle cx="0" cy="222" r="4" fill="#90a4bf"/>
-    <circle cx="0" cy="258" r="4" fill="#90a4bf"/>
-    <circle cx="0" cy="294" r="4" fill="#90a4bf"/>
-    <rect x="-70" y="356" width="56" height="164" fill="#2f3e56"/>
-    <rect x="14" y="356" width="56" height="164" fill="#2f3e56"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6f8fc"/>
+      <stop offset="100%" stop-color="#dce6f4"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#2f466e" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect x="90" y="80" width="1020" height="740" rx="36" fill="#ffffff" filter="url(#shadow)"/>
+  <ellipse cx="600" cy="725" rx="205" ry="44" fill="#000" opacity="0.11"/>
+
+  <g transform="translate(600 190)">
+    <circle cx="0" cy="72" r="54" fill="#e9b999"/>
+    <rect x="-28" y="118" width="56" height="34" rx="11" fill="#e9b999"/>
+
+    <path d="M-230 220 L-110 162 L-56 252 L-122 336 L-248 280 Z" fill="#ffffff"/>
+    <path d="M230 220 L110 162 L56 252 L122 336 L248 280 Z" fill="#ffffff"/>
+
+    <path d="M-168 160 L168 160 L146 610 L-146 610 Z" fill="#ffffff" stroke="#d5dfec" stroke-width="4"/>
+    <path d="M-62 160 L0 230 L62 160" fill="#ffffff" stroke="#ccd7e5" stroke-width="6"/>
+    <line x1="0" y1="230" x2="0" y2="610" stroke="#ccd7e5" stroke-width="4"/>
+
+    <circle cx="0" cy="288" r="6" fill="#8ca1bc"/>
+    <circle cx="0" cy="338" r="6" fill="#8ca1bc"/>
+    <circle cx="0" cy="388" r="6" fill="#8ca1bc"/>
+    <circle cx="0" cy="438" r="6" fill="#8ca1bc"/>
+
+    <rect x="-132" y="610" width="96" height="214" fill="#2f3e56"/>
+    <rect x="36" y="610" width="96" height="214" fill="#2f3e56"/>
   </g>
-  <text x="400" y="520" text-anchor="middle" fill="#334155" font-size="36" font-family="Arial" font-weight="700">Camisa Social Branca</text>
+
+  <text x="600" y="850" text-anchor="middle" font-family="Arial" font-size="44" font-weight="700" fill="#334155">Camisa Social Branca</text>
 </svg>
