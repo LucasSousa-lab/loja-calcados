@@ -1,6 +1,19 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='800' height='560' viewBox='0 0 800 560'>
-  <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='#5a3b4d'/><stop offset='100%' stop-color='#a4688d'/></linearGradient></defs>
-  <rect width='800' height='560' fill='url(#g)'/>
-  <text x='50%' y='46%' dominant-baseline='middle' text-anchor='middle' fill='#ffffff' font-family='Arial' font-size='50' font-weight='700'>Blazer Feminino</text>
-  <text x='50%' y='58%' dominant-baseline='middle' text-anchor='middle' fill='#ffe8f5' font-family='Arial' font-size='30'>Alfaiataria</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <rect width="800" height="560" fill="#ffe8f0"/>
+  <rect x="0" y="420" width="800" height="140" fill="#ffd7e7"/>
+  <g transform="translate(400 95)">
+    <circle cx="0" cy="44" r="40" fill="#f5ccb2"/>
+    <path d="M-62 74 Q0 28 62 74 L56 98 Q0 62 -56 98 Z" fill="#7a3f63"/>
+    <rect x="-22" y="80" width="44" height="32" rx="8" fill="#f5ccb2"/>
+    <path d="M-126 130 L-56 104 L-20 170 L-66 236 L-142 190 Z" fill="#e28ab2"/>
+    <path d="M126 130 L56 104 L20 170 L66 236 L142 190 Z" fill="#e28ab2"/>
+    <path d="M-96 116 L96 116 L78 350 L-78 350 Z" fill="#f3a5c6"/>
+    <path d="M-30 116 L30 116 L10 230 L0 242 L-10 230 Z" fill="#fff8fb"/>
+    <circle cx="0" cy="166" r="5" fill="#7a3f63"/>
+    <circle cx="0" cy="198" r="5" fill="#7a3f63"/>
+    <circle cx="0" cy="230" r="5" fill="#7a3f63"/>
+    <rect x="-68" y="350" width="48" height="170" fill="#2f3e56"/>
+    <rect x="20" y="350" width="48" height="170" fill="#2f3e56"/>
+  </g>
+  <text x="400" y="520" text-anchor="middle" fill="#9b3f6c" font-size="36" font-family="Arial" font-weight="700">Blazer Feminino Rosa</text>
 </svg>

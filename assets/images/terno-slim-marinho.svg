@@ -1,6 +1,16 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='800' height='560' viewBox='0 0 800 560'>
-  <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='#1f2a44'/><stop offset='100%' stop-color='#334e7d'/></linearGradient></defs>
-  <rect width='800' height='560' fill='url(#g)'/>
-  <text x='50%' y='46%' dominant-baseline='middle' text-anchor='middle' fill='#ffffff' font-family='Arial' font-size='56' font-weight='700'>Terno Slim Marinho</text>
-  <text x='50%' y='58%' dominant-baseline='middle' text-anchor='middle' fill='#d7e2ff' font-family='Arial' font-size='30'>Elegance Store</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <rect width="800" height="560" fill="#e8edf7"/>
+  <rect x="0" y="420" width="800" height="140" fill="#d9e2f2"/>
+  <g transform="translate(400 90)">
+    <circle cx="0" cy="48" r="42" fill="#f1c7a8"/>
+    <rect x="-26" y="84" width="52" height="38" rx="10" fill="#f1c7a8"/>
+    <path d="M-140 120 L-58 92 L-22 170 L-62 224 L-150 170 Z" fill="#1b3158"/>
+    <path d="M140 120 L58 92 L22 170 L62 224 L150 170 Z" fill="#1b3158"/>
+    <path d="M-96 108 L96 108 L74 360 L-74 360 Z" fill="#223f70"/>
+    <path d="M-38 108 L38 108 L20 240 L0 258 L-20 240 Z" fill="#ffffff"/>
+    <path d="M0 158 L18 250 L0 330 L-18 250 Z" fill="#0f172a"/>
+    <rect x="-70" y="360" width="54" height="160" fill="#1b3158"/>
+    <rect x="16" y="360" width="54" height="160" fill="#1b3158"/>
+  </g>
+  <text x="400" y="520" text-anchor="middle" fill="#1b3158" font-size="36" font-family="Arial" font-weight="700">Terno Slim Marinho</text>
 </svg>

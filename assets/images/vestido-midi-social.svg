@@ -1,6 +1,18 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='800' height='560' viewBox='0 0 800 560'>
-  <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='#50325f'/><stop offset='100%' stop-color='#8b5fa8'/></linearGradient></defs>
-  <rect width='800' height='560' fill='url(#g)'/>
-  <text x='50%' y='46%' dominant-baseline='middle' text-anchor='middle' fill='#ffffff' font-family='Arial' font-size='54' font-weight='700'>Vestido Midi Social</text>
-  <text x='50%' y='58%' dominant-baseline='middle' text-anchor='middle' fill='#efe5ff' font-family='Arial' font-size='30'>Elegance Store</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <rect width="800" height="560" fill="#efe6f6"/>
+  <rect x="0" y="420" width="800" height="140" fill="#e2d3ef"/>
+  <g transform="translate(400 86)">
+    <circle cx="0" cy="40" r="38" fill="#f2c8aa"/>
+    <rect x="-20" y="74" width="40" height="26" rx="8" fill="#f2c8aa"/>
+    <path d="M-68 108 Q0 74 68 108 L56 174 L-56 174 Z" fill="#7b4ea3"/>
+    <path d="M-56 174 L56 174 L112 430 L-112 430 Z" fill="#8e61b8"/>
+    <path d="M-112 430 L-62 430 L-74 520 L-126 520 Z" fill="#4b5563"/>
+    <path d="M112 430 L62 430 L74 520 L126 520 Z" fill="#4b5563"/>
+    <path d="M-118 146 L-56 126 L-44 182 L-104 206 Z" fill="#8e61b8"/>
+    <path d="M118 146 L56 126 L44 182 L104 206 Z" fill="#8e61b8"/>
+    <line x1="0" y1="174" x2="0" y2="430" stroke="#b491d4" stroke-width="3"/>
+    <circle cx="0" cy="228" r="4" fill="#d9c3ec"/>
+    <circle cx="0" cy="270" r="4" fill="#d9c3ec"/>
+  </g>
+  <text x="400" y="520" text-anchor="middle" fill="#6f3f98" font-size="36" font-family="Arial" font-weight="700">Vestido Midi Social</text>
 </svg>

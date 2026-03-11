@@ -1,6 +1,20 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='800' height='560' viewBox='0 0 800 560'>
-  <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='#d9dde6'/><stop offset='100%' stop-color='#f8fafc'/></linearGradient></defs>
-  <rect width='800' height='560' fill='url(#g)'/>
-  <text x='50%' y='46%' dominant-baseline='middle' text-anchor='middle' fill='#24344f' font-family='Arial' font-size='54' font-weight='700'>Camisa Social Branca</text>
-  <text x='50%' y='58%' dominant-baseline='middle' text-anchor='middle' fill='#52627e' font-family='Arial' font-size='30'>Elegance Store</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <rect width="800" height="560" fill="#e6eef8"/>
+  <rect x="0" y="420" width="800" height="140" fill="#d2deee"/>
+  <g transform="translate(400 84)">
+    <circle cx="0" cy="42" r="38" fill="#f4ccb0"/>
+    <rect x="-20" y="76" width="40" height="30" rx="8" fill="#f4ccb0"/>
+    <path d="M-130 126 L-56 100 L-32 156 L-68 214 L-146 178 Z" fill="#ffffff"/>
+    <path d="M130 126 L56 100 L32 156 L68 214 L146 178 Z" fill="#ffffff"/>
+    <path d="M-98 106 L98 106 L82 356 L-82 356 Z" fill="#ffffff" stroke="#d1d9e6" stroke-width="3"/>
+    <path d="M-34 106 L0 146 L34 106" fill="#ffffff" stroke="#c7d2e3" stroke-width="4"/>
+    <line x1="0" y1="146" x2="0" y2="356" stroke="#c7d2e3" stroke-width="3"/>
+    <circle cx="0" cy="186" r="4" fill="#90a4bf"/>
+    <circle cx="0" cy="222" r="4" fill="#90a4bf"/>
+    <circle cx="0" cy="258" r="4" fill="#90a4bf"/>
+    <circle cx="0" cy="294" r="4" fill="#90a4bf"/>
+    <rect x="-70" y="356" width="56" height="164" fill="#2f3e56"/>
+    <rect x="14" y="356" width="56" height="164" fill="#2f3e56"/>
+  </g>
+  <text x="400" y="520" text-anchor="middle" fill="#334155" font-size="36" font-family="Arial" font-weight="700">Camisa Social Branca</text>
 </svg>
