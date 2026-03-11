@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='560' viewBox='0 0 800 560'>
+  <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='#5a3b4d'/><stop offset='100%' stop-color='#a4688d'/></linearGradient></defs>
+  <rect width='800' height='560' fill='url(#g)'/>
+  <text x='50%' y='46%' dominant-baseline='middle' text-anchor='middle' fill='#ffffff' font-family='Arial' font-size='50' font-weight='700'>Blazer Feminino</text>
+  <text x='50%' y='58%' dominant-baseline='middle' text-anchor='middle' fill='#ffe8f5' font-family='Arial' font-size='30'>Alfaiataria</text>
+</svg>
